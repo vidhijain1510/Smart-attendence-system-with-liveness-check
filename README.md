@@ -1,8 +1,8 @@
 # About my first project on GitHub.
-# Introduction\
+### Introduction
 The Automated Attendance System with Facial Recognition and Liveness Detection is designed to streamline the attendance process in educational institutions. By leveraging advanced technologies such as DeepFace for facial recognition and TensorFlow for liveness detection, the system ensures accurate and efficient attendance tracking while preventing spoofing attacks. Attendance records are seamlessly integrated with Excel, providing a reliable method for record-keeping.
 
-# Objectives\
+### Objectives
 Automate the attendance marking process.
 Ensure the authenticity of individuals using liveness detection.
 Maintain accurate attendance records in an Excel sheet.
@@ -16,7 +16,7 @@ keyboard: For detecting key presses.
 xlwings: For Excel integration to record attendance.
 datetime: For handling date and time data.
 
-# System Design\
+### System Design
 Facial Recognition-
 The system uses the DeepFace library to recognize faces from the video feed captured by the webcam. Recognized faces are compared against a pre-existing database of student images to identify individuals.
 Liveness Detection-
@@ -26,7 +26,7 @@ Attendance is recorded in an Excel sheet using the xlwings library. Each sheet i
 User Interface-
 The user interface is built using pygame, providing a real-time display of recognized faces along with the date and time. Notifications are shown when attendance is successfully recorded or if the student has already been marked present.
 
-### Implementation\
+### Implementation
 Initialization
 Load the pre-trained liveness detection model.
 Initialize the Excel workbook and create a new sheet for the current date.
@@ -45,7 +45,7 @@ Release the video capture and quit pygame when the program is terminated.
 Results
 The system successfully recognizes students, verifies their liveness, and accurately records their attendance in an Excel sheet. The graphical interface provides clear real-time feedback, and the integration with xlwings ensures that records are well-maintained and accessible.
 
-#Conclusion\
+### Conclusion
 The Automated Attendance System with Facial Recognition and Liveness Detection offers a robust solution for educational institutions to manage attendance efficiently and securely. By leveraging facial recognition and liveness detection, the system enhances security and reduces manual effort, ensuring that attendance records are accurate and reliable.
 
 This project is a significant step towards modernizing attendance systems in educational settings, providing a seamless and secure way to handle attendance tracking.
