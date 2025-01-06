@@ -1,5 +1,5 @@
 # About my first project on GitHub.
-###Introduction\
+###Introduction###\
 The Automated Attendance System with Facial Recognition and Liveness Detection is designed to streamline the attendance process in educational institutions. By leveraging advanced technologies such as DeepFace for facial recognition and TensorFlow for liveness detection, the system ensures accurate and efficient attendance tracking while preventing spoofing attacks. Attendance records are seamlessly integrated with Excel, providing a reliable method for record-keeping.
 
 #Objectives\
